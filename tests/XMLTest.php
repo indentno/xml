@@ -1,10 +1,10 @@
 <?php
 namespace Sempro\XML\Tests;
 
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 use Sempro\XML\XML;
 
-class XMLTest extends PHPUnit_Framework_TestCase
+class XMLTest extends TestCase
 {
     public function testCanConvertXmlStringToArray()
     {

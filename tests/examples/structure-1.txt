@@ -1,0 +1,41 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <EXAMPLEResponse xmlns="some:com:struct:1:0">
+         <CUSTOMERS>
+            <DataList>
+               <Value>
+                  <CUSTOMERID>834759834</CUSTOMERID>
+                  <CUSTOMERHASH>834759834-HASH-XOXO</CUSTOMERHASH>
+                  <FIRSTNAME>Steve</FIRSTNAME>
+                  <LASTNAME>Jobs</LASTNAME>
+                  <POSTALCODE>1337</POSTALCODE>
+                  <CITY>City</CITY>
+                  <ADDRESS>Rd. Drive</ADDRESS>
+                  <HOUSENO>3</HOUSENO>
+                  <COUNTRYCODE>US</COUNTRYCODE>
+                  <PHONENO>12345678</PHONENO>
+                  <MOBILENO>12345678</MOBILENO>
+               </Value>
+               <Value>
+                  <CUSTOMERID>92934748</CUSTOMERID>
+                  <CUSTOMERHASH>92934748-HASH-XOXO</CUSTOMERHASH>
+                  <FIRSTNAME>Tim Berners</FIRSTNAME>
+                  <LASTNAME>Lee</LASTNAME>
+                  <POSTALCODE>198</POSTALCODE>
+                  <CITY>Internet</CITY>
+                  <ADDRESS>WWW</ADDRESS>
+                  <HOUSENO>198</HOUSENO>
+                  <COUNTRYCODE>US</COUNTRYCODE>
+                  <PHONENO>12345678</PHONENO>
+                  <MOBILENO>12345678</MOBILENO>
+               </Value>
+            </DataList>
+            <TotalRecords>2</TotalRecords>
+         </CUSTOMERS>
+         <RESPONSESTATUS>
+            <RESPONSECODE>200</RESPONSECODE>
+            <RESPONSETEXT>OK</RESPONSETEXT>
+         </RESPONSESTATUS>
+      </EXAMPLEResponse>
+   </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,21 @@
+{
+  "name": "sempro/xml",
+  "description": "Work with XML structures with ease",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sempro AS",
+      "email": "packages@sempro.no"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Sempro\\XML\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0"
+  }
+}

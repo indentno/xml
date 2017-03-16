@@ -18,5 +18,8 @@ $xml = new XML;
 $xml->fromString($xmlStructure)->toArray();
 ```
 
+### Credit
+This package is based on [Tamlyn Rhodes article](http://outlandish.com/blog/xml-to-json/)
+
 ### License
 MIT © [Sempro AS](http://www.sempro.no)

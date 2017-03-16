@@ -8,7 +8,7 @@ class XMLTest extends TestCase
 {
     public function testCanConvertXmlStringToArray()
     {
-        $string = file_get_contents(__DIR__ . '/examples/structure-1.txt');
+        $string = file_get_contents(__DIR__ . '/examples/structure-1.xml');
 
         $xml = new XML;
         $parsed = $xml->fromString($string)->toArray();

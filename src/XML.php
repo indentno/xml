@@ -56,7 +56,8 @@ class XML
             foreach ($xml->children($namespace) as $childXml) {
                 //recurse into child nodes
                 $childArray = $this->xmlToArray($childXml, $options);
-                list($childTagName, $childProperties) = each($childArray);
+                $childTagName = key($childArray);
+                $childProperties = current($childArray);
                 $childTagName = strtolower($childTagName);
                 //replace characters in tag name
                 if ($options['keySearch']) {
